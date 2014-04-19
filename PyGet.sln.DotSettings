@@ -1,0 +1,221 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/CustomProperties/=FileName/@EntryIndexedValue">Interface</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Description/@EntryValue">Licensed &amp;Interface</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=INTERFACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=INTERFACE/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=INTERFACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=INTERFACE/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=NAMESPACE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=OWNER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=OWNER/Expression/@EntryValue">getFullUserName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=OWNER/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=OWNER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=PROJECT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=PROJECT/Expression/@EntryValue">getProjectName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=PROJECT/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=PROJECT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=YEAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=YEAR/Expression/@EntryValue">getCurrentDate("yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=YEAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Field/=YEAR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC483B7BBCF2484391DE46B0FB923E01/Text/@EntryValue">#region License&#xD;
+// $PROJECT$&#xD;
+// Copyright (c) $YEAR$, $OWNER$, All rights reserved.&#xD;
+//&#xD;
+// This library is free software; you can redistribute it and/or&#xD;
+// modify it under the terms of the GNU Lesser General Public&#xD;
+// License as published by the Free Software Foundation; either&#xD;
+// version 3.0 of the License, or (at your option) any later version.&#xD;
+&#xD;
+// This library is distributed in the hope that it will be useful,&#xD;
+// but WITHOUT ANY WARRANTY; without even the implied warranty of&#xD;
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU&#xD;
+// Lesser General Public License for more details.&#xD;
+//&#xD;
+// You should have received a copy of the GNU Lesser General Public&#xD;
+// License along with this library.&#xD;
+#endregion&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+    internal class $INTERFACE$ &#xD;
+    {&#xD;
+        $END$&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Description/@EntryValue">Licensed &amp;Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Text/@EntryValue">#region License&#xD;
+// $PROJECT$&#xD;
+// Copyright (c) $YEAR$, $OWNER$, All rights reserved.&#xD;
+//&#xD;
+// This library is free software; you can redistribute it and/or&#xD;
+// modify it under the terms of the GNU Lesser General Public&#xD;
+// License as published by the Free Software Foundation; either&#xD;
+// version 3.0 of the License, or (at your option) any later version.&#xD;
+&#xD;
+// This library is distributed in the hope that it will be useful,&#xD;
+// but WITHOUT ANY WARRANTY; without even the implied warranty of&#xD;
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU&#xD;
+// Lesser General Public License for more details.&#xD;
+//&#xD;
+// You should have received a copy of the GNU Lesser General Public&#xD;
+// License along with this library.&#xD;
+#endregion&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+    internal class $CLASS$ &#xD;
+    {&#xD;
+        $END$&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=PROJECT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=PROJECT/Expression/@EntryValue">getProjectName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=PROJECT/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=PROJECT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=YEAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=YEAR/Expression/@EntryValue">getCurrentDate("yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=YEAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=YEAR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=OWNER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=OWNER/Expression/@EntryValue">getFullUserName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=OWNER/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=OWNER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=NAMESPACE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9CF26962EEED548952D0B6EAA72D951/Field/=CLASS/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/CustomProperties/=FileName/@EntryIndexedValue">Struct</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Description/@EntryValue">Licensed &amp;Struct</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=NAMESPACE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=OWNER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=OWNER/Expression/@EntryValue">getFullUserName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=OWNER/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=OWNER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=PROJECT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=PROJECT/Expression/@EntryValue">getProjectName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=PROJECT/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=PROJECT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=STRUCT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=STRUCT/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=STRUCT/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=STRUCT/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=YEAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=YEAR/Expression/@EntryValue">getCurrentDate("yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=YEAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Field/=YEAR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E3063699999EE346B6C69C719B9E796E/Text/@EntryValue">#region License&#xD;
+// $PROJECT$&#xD;
+// Copyright (c) $YEAR$, $OWNER$, All rights reserved.&#xD;
+//&#xD;
+// This library is free software; you can redistribute it and/or&#xD;
+// modify it under the terms of the GNU Lesser General Public&#xD;
+// License as published by the Free Software Foundation; either&#xD;
+// version 3.0 of the License, or (at your option) any later version.&#xD;
+&#xD;
+// This library is distributed in the hope that it will be useful,&#xD;
+// but WITHOUT ANY WARRANTY; without even the implied warranty of&#xD;
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU&#xD;
+// Lesser General Public License for more details.&#xD;
+//&#xD;
+// You should have received a copy of the GNU Lesser General Public&#xD;
+// License along with this library.&#xD;
+#endregion&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+    internal struct $STRUCT$ &#xD;
+    {&#xD;
+        $END$&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/CustomProperties/=FileName/@EntryIndexedValue">Enum</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Description/@EntryValue">Licensed &amp;Enum</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=ENUM/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=ENUM/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=ENUM/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=ENUM/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=NAMESPACE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=OWNER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=OWNER/Expression/@EntryValue">getFullUserName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=OWNER/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=OWNER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=PROJECT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=PROJECT/Expression/@EntryValue">getProjectName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=PROJECT/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=PROJECT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=YEAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=YEAR/Expression/@EntryValue">getCurrentDate("yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=YEAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Field/=YEAR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC92F1D2D5D0F4439380FE693466BB8D/Text/@EntryValue">#region License&#xD;
+// $PROJECT$&#xD;
+// Copyright (c) $YEAR$, $OWNER$, All rights reserved.&#xD;
+//&#xD;
+// This library is free software; you can redistribute it and/or&#xD;
+// modify it under the terms of the GNU Lesser General Public&#xD;
+// License as published by the Free Software Foundation; either&#xD;
+// version 3.0 of the License, or (at your option) any later version.&#xD;
+&#xD;
+// This library is distributed in the hope that it will be useful,&#xD;
+// but WITHOUT ANY WARRANTY; without even the implied warranty of&#xD;
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU&#xD;
+// Lesser General Public License for more details.&#xD;
+//&#xD;
+// You should have received a copy of the GNU Lesser General Public&#xD;
+// License along with this library.&#xD;
+#endregion&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+    internal class $ENUM$ &#xD;
+    {&#xD;
+        $END$&#xD;
+    }&#xD;
+}</s:String></wpf:ResourceDictionary>
