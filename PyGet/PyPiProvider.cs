@@ -71,6 +71,7 @@ namespace PyGet
             bool trusted, 
             Func<string, IEnumerable<object>, object> c)
         {
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -124,9 +125,11 @@ namespace PyGet
 
         /// <summary>
         /// Gets the installation option definitions. Calls <see cref="Delegates.YieldInstallationOptionsDefinition"/>
-        /// for each definition.
+        ///     for each definition.
         /// </summary>
-        /// <param name="c">The PowerShell callback.</param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
         public void GetInstallationOptionDefinitions(Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -135,9 +138,15 @@ namespace PyGet
         /// <summary>
         /// Gets the installed packages. Calls <see cref="Delegates.YieldPackage"/> for each installed package.
         /// </summary>
-        /// <param name="name">The name of the source to list packages for. Ignored because Pip does not track this.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if any packages are installed, otherwise false.</returns>
+        /// <param name="name">
+        /// Optional. The name of a package.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if package listing succeeded, otherwise false.
+        /// </returns>
         public bool GetInstalledPackages(string name, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -146,7 +155,9 @@ namespace PyGet
         /// <summary>
         /// Gets the metadata definitions. Calls <see cref="Delegates.YieldMetadataDefinition"/> for each definition.
         /// </summary>
-        /// <param name="c">The PowerShell callback.</param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
         public void GetMetadataDefinitions(Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -155,8 +166,12 @@ namespace PyGet
         /// <summary>
         /// Gets the registered package sources. Calls <see cref="Delegates.YieldSource"/> for each source.
         /// </summary>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if there are sources, otherwise false.</returns>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if there are sources, otherwise false.
+        /// </returns>
         public bool GetPackageSources(Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -165,8 +180,12 @@ namespace PyGet
         /// <summary>
         /// Gets the name of this provider.
         /// </summary>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>The name of this provider.</returns>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// The name of this provider.
+        /// </returns>
         public string GetProviderName(Func<string, IEnumerable<object>, object> c)
         {
             return ProviderName;
@@ -174,12 +193,18 @@ namespace PyGet
 
         /// <summary>
         /// Installs a package based on a fast path. Fast path is formatted as source/package/version. Slashes (/)
-        /// and backslashes (\) are escaped with a backslash.
+        ///     and backslashes (\) are escaped with a backslash.
         /// </summary>
-        /// <param name="fastpath">The package fast path to install.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if the package installed successfully, otherwise false.</returns>
-        public bool InstallPackageByFastpath(string fastpath, Func<string, IEnumerable<object>, object> c)
+        /// <param name="fastPath">
+        /// The package fast path to install.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if the package installed successfully, otherwise false.
+        /// </returns>
+        public bool InstallPackageByFastpath(string fastPath, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
         }
@@ -187,9 +212,15 @@ namespace PyGet
         /// <summary>
         /// Installs a package directly from a file.
         /// </summary>
-        /// <param name="filePath">The path to the file to install.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if the package installed successfully, otherwise false.</returns>
+        /// <param name="filePath">
+        /// The path to the file to install.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if the package installed successfully, otherwise false.
+        /// </returns>
         public bool InstallPackageByFile(string filePath, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -198,9 +229,15 @@ namespace PyGet
         /// <summary>
         /// Checks if a package source is marked as trusted.
         /// </summary>
-        /// <param name="packageSource">The name of the package source.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if the source is trusted, otherwise false.</returns>
+        /// <param name="packageSource">
+        /// The name of the package source.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if the source is trusted, otherwise false.
+        /// </returns>
         public bool IsTrustedPackageSource(string packageSource, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -209,9 +246,15 @@ namespace PyGet
         /// <summary>
         /// Checks if a package source is valid.
         /// </summary>
-        /// <param name="packageSource">The name of the package source.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if the source is valid, otherwise false.</returns>
+        /// <param name="packageSource">
+        /// The name of the package source.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if the source is valid, otherwise false.
+        /// </returns>
         public bool IsValidPackageSource(string packageSource, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
@@ -220,9 +263,13 @@ namespace PyGet
         /// <summary>
         /// Removes a package source.
         /// </summary>
-        /// <param name="name">The name of the package source to remove.</param>
-        /// <param name="c">The PowerShell callback.</param>
-        public void RemovePackageSource(string name, Func<string, IEnumerable<object>, object> c)
+        /// <param name="packageSource">
+        /// The name of the package source to remove.
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        public void RemovePackageSource(string packageSource, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
         }
@@ -230,9 +277,16 @@ namespace PyGet
         /// <summary>
         /// Uninstalls a package.
         /// </summary>
-        /// <param name="fastPath">The fast path of the package.<seealso cref="InstallPackageByFastpath"/></param>
-        /// <param name="c">The PowerShell callback.</param>
-        /// <returns>True if the package uninstalled successfully, otherwise false.</returns>
+        /// <param name="fastPath">
+        /// The fast path of the package.
+        /// <seealso cref="InstallPackageByFastpath"/>
+        /// </param>
+        /// <param name="c">
+        /// The PowerShell callback.
+        /// </param>
+        /// <returns>
+        /// True if the package uninstalled successfully, otherwise false.
+        /// </returns>
         public bool UninstallPackage(string fastPath, Func<string, IEnumerable<object>, object> c)
         {
             throw new NotImplementedException();
