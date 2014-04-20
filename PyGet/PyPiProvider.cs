@@ -48,6 +48,15 @@ namespace PyGet
 
         #endregion
 
+        #region Fields
+
+        /// <summary>
+        ///     The source manager.
+        /// </summary>
+        private SourceManager sources = new SourceManager();
+
+        #endregion
+
         #region Public Methods and Operators
 
         /// <summary>
@@ -71,7 +80,14 @@ namespace PyGet
             bool trusted, 
             Func<string, IEnumerable<object>, object> c)
         {
-            throw new NotImplementedException();
+            var sourceType = SourceType.PyPi;
+            string typeString;
+            if (c.TryGetSwitch("SourceType", out typeString))
+            {
+                sourceType = (SourceType)Enum.Parse(typeof(SourceType), typeString, true);
+            }
+
+            this.sources.Add(new Source(name, location, trusted, sourceType));
         }
 
         /// <summary>
@@ -271,7 +287,7 @@ namespace PyGet
         /// </param>
         public void RemovePackageSource(string packageSource, Func<string, IEnumerable<object>, object> c)
         {
-            throw new NotImplementedException();
+            this.sources.Remove(packageSource);
         }
 
         /// <summary>
